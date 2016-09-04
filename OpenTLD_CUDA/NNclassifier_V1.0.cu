@@ -34,7 +34,7 @@ void NNclassifier::GetNNConf(const Mat& example, bool& isSimilar2PEx, bool& isSi
 	isSimilar2PEx = false;
 	isSimilar2NEx = false;
 
-	float ncc_f;//临时保存每个样本的ncc模板匹配值
+	float ncc_f;//临时保存每个样本的ncc模板匹配值.
 	float maxN_f = 0;//与N专家匹配最大值
 	float maxP_f = 0;//与P专家匹配最大值
 	float cmaxP_f = 0;//与P专家匹配最大保守值
